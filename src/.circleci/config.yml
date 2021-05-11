@@ -30,11 +30,11 @@ jobs:
            pkg-manager: yarn 
  - run:
           name: Run build
-          command: ng build --prod
+          command: yarn ng build --prod
 
       - run:
           name: Run tests
-          command: ng test --single-run
+          command: yarn ng test --single-run
          
 
 workflows:
