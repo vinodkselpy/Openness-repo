@@ -31,6 +31,9 @@ jobs:
       - run:
           name: Run build
           command: npm build
+      - run:
+          name: Run test
+          command: npm test
      
 
 workflows:
